@@ -4,11 +4,10 @@
 
 Simplified interface and example:
 
->Target phrase:
->"I am a dog person. I love dogs!"
+>Target phrase: "I am a dog person. I love dogs!"
 
->Replace this:
->"dog"
+>Replace this: "dog"
 
->With this:
->"cat"
+>With this: "cat"
+
+>Result: "I am a cat person. I love cats!"
