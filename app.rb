@@ -8,7 +8,9 @@ get('/') do
 end
 
 get('/adjusted') do
-  @phrase = params.fetch('phrase')
-  @target = params.fetch('target')
-  @substitue = params.fetch('substitute')
+  phrase = params.fetch('phrase')
+  target = params.fetch('target')
+  substitute = params.fetch('substitute')
+
+  @result = phrase.find_and_replace(target, substitute)
 end
