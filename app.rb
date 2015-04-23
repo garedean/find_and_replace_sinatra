@@ -13,4 +13,6 @@ get('/adjusted') do
   substitute = params.fetch('substitute')
 
   @result = phrase.find_and_replace(target, substitute)
+  
+  erb(:adjusted)
 end
